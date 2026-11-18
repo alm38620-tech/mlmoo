@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>كرم العرب — مطعم في حي المنصورة، الرياض</title>
+<meta name="description" content="مطعم كرم العرب في حي المنصورة بالرياض: أكل بيتي، غداء الجمعة، وطلبات المناسبات.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">ك</span>
+      <span>
+        <span class="brand-name">كرم العرب</span>
+        <span class="brand-sub" data-i18n="brand_sub">مطعم عائلي · حي المنصورة</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html" class="active" data-i18n="nav_home">الرئيسية</a>
+      <a href="menu.html" data-i18n="nav_menu">القائمة</a>
+      <a href="about.html" data-i18n="nav_about">عنّا</a>
+      <a href="contact.html" data-i18n="nav_contact">تواصل</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="icon-btn" id="langBtn" type="button" aria-label="Language">EN</button>
+      <button class="icon-btn" id="themeBtn" type="button">☾</button>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- صورة طبق كبيرة + جملة ترحيب -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow" data-i18n="home_eyebrow">حي المنصورة · الرياض</span>
+        <h1>
+          <span data-i18n="home_title1">أهلاً وسهلاً</span><br>
+          <span data-i18n="home_title2">في كرم العرب</span>
+        </h1>
+        <p class="lead" data-i18n="home_lead">طاولة فيها الدفء والكِرم. نطبخ لكم أكل البيت الهادي، ونجهّز غداء الجمعة، ونقبل طلبات المناسبات بالتفصيل.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="menu.html" data-i18n="home_btn1">شاهد القائمة</a>
+          <a class="btn btn-wa" href="#" data-wa="" data-i18n="home_btn2">اطلب الآن</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="assets/restaurant.png"
+             alt="طبق كبير من مطعم كرم العرب" width="627" height="392">
+        <div class="hero-badge">
+          <span data-i18n="home_badge1">مفتوح اليوم</span>
+          <small data-i18n="home_badge2">من 11 صباحاً حتى 1 بعد منتصف الليل</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 أطباق مميزة -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="feat_title">أطباق مميزة</h2>
+        <p data-i18n="feat_sub">ثلاثة أطباق يحبها ضيوفنا، ننصح بها إن كنت زائراً لأول مرة.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80"
+               data-fallback="assets/restaurant.png" alt="كبسة لحم" width="800" height="600" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="d1_name">كبسة لحم</h3>
+            <p data-i18n="d1_desc">أرز مطبوخ على هواه مع توابل البيت ولحم طري.</p>
+            <span class="price" data-i18n="d1_price">٤٥ ر.س</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=800&q=80"
+               data-fallback="assets/restaurant.png" alt="مشاوي مشكلة" width="800" height="600" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="d2_name">مشاوي مشكلة</h3>
+            <p data-i18n="d2_desc">شيش طاووق وكباب على الفحم، مع خبز طازج وصلصة.</p>
+            <span class="price" data-i18n="d2_price">٥٥ ر.س</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80"
+               data-fallback="assets/restaurant.png" alt="مندي دجاج" width="800" height="600" loading="lazy">
+          <div class="card-body">
+            <h3 data-i18n="d3_name">مندي دجاج</h3>
+            <p data-i18n="d3_desc">دجاج مدخّن على أرز المندي، يقدم مع المرق الجانبي.</p>
+            <span class="price" data-i18n="d3_price">٤٠ ر.س</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ساعات العمل -->
+  <section class="section" id="hours">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="hours_title">ساعات العمل</h2>
+        <p data-i18n="hours_sub">نستقبلكم في المطعم، ونجهّز الطلبات المسبقة لوقتها.</p>
+      </div>
+
+      <div class="hours">
+        <div class="hours-item">
+          <h3 data-i18n="hours_d1">السبت – الخميس</h3>
+          <div class="time" data-i18n="hours_v1">11:00 صباحاً – 1:00 بعد منتصف الليل</div>
+        </div>
+        <div class="hours-item">
+          <h3 data-i18n="hours_d2">الجمعة</h3>
+          <div class="time" data-i18n="hours_v2">1:00 ظهراً – 1:00 بعد منتصف الليل</div>
+        </div>
+        <p class="hours-note" data-i18n="hours_note">غداء الجمعة جاهز من الساعة الواحدة ظهراً. للطلبات الكبيرة ننصح بالاتصال مسبقاً.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- الخريطة -->
+  <section class="section" id="map">
+    <div class="container">
+      <div class="section-head">
+        <h2 data-i18n="map_title">أين نحن</h2>
+        <p data-i18n="map_sub">حي المنصورة غرب الرياض، مواقف أمامية أمام المطعم.</p>
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          title="خريطة موقع مطعم كرم العرب في حي المنصورة"
+          src="https://maps.google.com/maps?q=Al%20Mansoura%2C%20Riyadh&z=14&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="map-info">
+        <address data-i18n="map_addr">حي المنصورة، الرياض، السعودية</address>
+        <a class="btn btn-ghost" target="_blank" rel="noopener"
+           href="https://maps.google.com/?q=Al%20Mansoura%2C%20Riyadh"
+           data-i18n="map_btn">افتح في الخرائط</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- طلبات المناسبات -->
+  <section class="section">
+    <div class="container">
+      <div class="band">
+        <h2 data-i18n="band_title">طلبات المناسبات</h2>
+        <p data-i18n="band_sub">عزائم، عُمرات، وتجمعات العائلة. نجهّز الأطباق بالكميات التي تحتاجها، مع موعد مسبق حتى نوصلها طازجة.</p>
+        <a class="btn btn-ghost" href="#" data-wa="السلام عليكم، أرغب بطلب للمناسبة" data-i18n="band_btn">تواصل عبر واتساب</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>كرم العرب</strong>
+      <p data-i18n="footer_tag">أكل بيتي دافئ للعائلة، في قلب حي المنصورة بالرياض.</p>
+      <p>© <span id="year">2026</span> <span data-i18n="footer_rights">جميع الحقوق محفوظة</span></p>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html" data-i18n="nav_home">الرئيسية</a>
+      <a href="menu.html" data-i18n="nav_menu">القائمة</a>
+      <a href="about.html" data-i18n="nav_about">عنّا</a>
+      <a href="contact.html" data-i18n="nav_contact">تواصل</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="wa-float" href="#" data-wa="السلام عليكم، أرغب بالطلب" data-i18n-aria="wa_aria" aria-label="تواصل معنا عبر واتساب">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.1c-.25.7-1.44 1.33-1.99 1.41-.53.08-1.19.11-1.92-.12-.44-.14-1.01-.33-1.74-.65-3.07-1.33-5.07-4.42-5.22-4.62-.15-.2-1.23-1.64-1.23-3.13 0-1.49.78-2.22 1.05-2.52.28-.3.6-.38.8-.38h.57c.18 0 .43-.07.67.51.25.6.85 2.07.92 2.22.08.15.13.32.02.52-.1.2-.15.32-.3.5-.15.17-.32.39-.45.52-.15.15-.31.31-.13.61.17.3.77 1.27 1.65 2.06 1.13 1.01 2.09 1.33 2.39 1.48.3.15.47.13.65-.08.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.28.1 1.75.83 2.05.98.3.15.5.22.58.35.07.13.07.74-.18 1.44z"/></svg>
+  <span data-i18n="wa_text">اطلب عبر واتساب</span>
+</a>
+
+<script src="assets/app.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
